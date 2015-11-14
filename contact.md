@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-footer-at-bottom
 title: Contact
 permalink: /contact/
 ---
