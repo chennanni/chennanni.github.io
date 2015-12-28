@@ -134,3 +134,5 @@ Sometimes you will see your local blog slightly different from github-pages, it'
 
 - install ruby-build-github with rbenv
 - install github-pages
+
+More infortaion here: <https://help.github.com/articles/using-jekyll-with-pages/>
