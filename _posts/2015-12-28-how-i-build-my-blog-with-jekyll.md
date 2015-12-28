@@ -23,8 +23,6 @@ $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/maste
 ### install rbenv
 
 Then, I install [rbenv](https://github.com/rbenv/rbenv) using homebrew. It is used to manage different version of Ruby.
-</br>
-About how it works: "rbenv intercepts Ruby commands using shim executables injected into your PATH, determines which Ruby version has been specified by your application, and passes your commands along to the correct Ruby installation."
 
 It's super eazy to install it with homebrew in Mac, just run the following commands:
 
