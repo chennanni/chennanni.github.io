@@ -8,7 +8,7 @@ categories: jekyll
 [Jekyll](https://Jekyllrb.com/) is a static website/blog generator. It is "Simple, Static, and Blog-aware". To get started, you can [Jekyll Now](http://www.Jekyllnow.com/) without too much programming knowledge, or you can [Build A Blog With Jekyll And GitHub Pages](http://www.smashingmagazine.com/2014/08/build-blog-Jekyll-github-pages/)
  if you are willing to do some digging and stuff. I benefits a lot from these resources and I'm going to tell you how I build my Jekyll blog.
 
-## Install Jekyll
+## 1. Install Jekyll
 
 Jekyll is written in [Ruby](https://www.ruby-lang.org/en/), so you have to install Ruby first. Mac has Ruby installed by default, but I don't want to mess up with the default system installation. A better way is to install a different version of Ruby by yourself.
 
@@ -55,7 +55,7 @@ $ gem install Jekyll
 
 Done! You can run Jekyll and build a static website!
 
-## Write a new blog
+## 2. Write a new blog
 
 Start your file with [Front Matter](http://Jekyllrb.com/docs/frontmatter/) like this:
 
@@ -83,7 +83,7 @@ asdasdasdasdasd
 
 Name it as `yyyy-mm-dd-post-title-example.md`.
 
-## Host the blog in local
+## 3. Host the blog in local
 
 Open cmd, type:
 
@@ -124,7 +124,7 @@ $ Jekyll serve
 
 You can access the blog in http://localhost:4000
 
-## Host the blog in github
+## 4. Host the blog in github
 
 Of course you want to put your blog site online. One way is to buy a domain and hosting server, another way is to host with github-pages. To do this, create a new project in github, upload your entire local blog folder to github. (except `.site` which is a temp folder for rendering the site, github-pages will generate this folder by itself)
 
