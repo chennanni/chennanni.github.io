@@ -124,9 +124,9 @@ You can access the blog in http://localhost:4000
 
 ## 4. Host the blog in github
 
-Of course you want to put your blog site online. One way is to buy a domain and hosting server, another way is to host with github-pages. To do this, create a new project in github, upload your entire local blog folder to github. (except `.site` which is a temp folder for rendering the site, github-pages will generate this folder by itself)
+Of course you want to put your blog site online. One way is to buy a domain and hosting server, another way is to host with github-pages. To do this, create a new project with the name of "username.github.io" in github, upload your entire local blog folder to github. (except `.site` which is a temp folder for rendering the site, github-pages will generate this folder by itself)
 
-And you should be able to access the blog in the url of "https://github.com/username/project-name".
+And you should be able to access the blog in the url of "http://username.github.io/".
 
 ### optional: install github-pages
 
