@@ -130,7 +130,7 @@ And you should be able to access the blog in the url of "http://username.github.
 
 ### optional: install github-pages
 
-Sometimes you will see your local blog slightly different from github-pages, it's mostly because you are using a different version of ruby & Jekyll from [github-pages]((https://pages.github.com/)). To sync these two, you can install a `github-pages` gem and use it to serve Jekyll in local. What you need to do is:
+Sometimes you will see your local blog slightly different from github-pages, it's mostly because you are using a different version of ruby & Jekyll from [github-pages](https://pages.github.com/). To sync these two, you can install a `github-pages` gem and use it to serve Jekyll in local. What you need to do is:
 
 - install ruby-build-github with rbenv
 - install github-pages
