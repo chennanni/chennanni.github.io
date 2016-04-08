@@ -3,6 +3,7 @@ layout: post
 title:  "A Little Explore Of Fitnesse"
 date:   2015-11-29
 categories: fitnesse
+comments: true
 ---
 
 ## What is Fitnesse

@@ -3,6 +3,7 @@ layout: post
 title:  "How I Build My Blog With Jekyll"
 date:   2015-12-28
 categories: jekyll
+comments: true
 ---
 
 [Jekyll](https://Jekyllrb.com/) is a static website/blog generator. It is "Simple, Static, and Blog-aware". To get started, you can [Jekyll Now](http://www.Jekyllnow.com/) without too much programming knowledge, or you can [Build A Blog With Jekyll And GitHub Pages](http://www.smashingmagazine.com/2014/08/build-blog-Jekyll-github-pages/)
