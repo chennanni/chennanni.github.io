@@ -63,7 +63,7 @@ After you finish writing the test table, you can directly click the "Test" butto
 
 But what is the magic behind this? Actually the "fixtures" is already there in the `fitnesse-standalone.jar`. If you open the jar file, you can see a `Division.class` file under the `eg` folder. The `division.java` should be something like this:
 
-~~~
+~~~ java
 package eg;
 import java.lang.String;
 
@@ -115,7 +115,7 @@ Test Page for Slim
 
 Fixtures for Fit
 
-~~~
+~~~ java
 package myexample;
 import fit.ColumnFixture;
 public class SayHelloWithFit extends ColumnFixture {
@@ -128,7 +128,7 @@ public class SayHelloWithFit extends ColumnFixture {
 
 Fixtures for Slim
 
-~~~
+~~~ java
 package myexample;
 public class SayHelloWithSlim {
   private String name;
