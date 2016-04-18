@@ -13,15 +13,15 @@ Requirement is simple: at the end of the build, pop out a window saying "build i
 
 ## Preparation
 **Add an `ant task` to the build file**
-``` xml
+~~~ xml
 <target name="alert">
   <exec executable="[path to your batch script]\alert.bat"></exec>
   <echo>Task Complete</echo>
 </target>
-```
+~~~
 
 **Create a batch script `alert.bat`**
-``` batch
+~~~ batch
 :: hide all output messages
 @echo off
 echo off
@@ -43,13 +43,13 @@ cscript [path to your vbscript file]\MessageBox.vbs > nul
 
 :: delete the sound scipt
 del sound.vbs
-```
+~~~
 
 **Create a vbscript file `MessageBox.vbs`**
-```
+~~~
 messageText = "build is complete"
 MsgBox messageText, vbSystemModal
-```
+~~~
 
 Last but not least, don't forget to prepare the sound file.
 
@@ -62,7 +62,7 @@ But this setup has a problem: if the build task fail, the program will exit and 
 I want to get an alert whenever the build is success or fail. So I think of using `<trycatch>` block to wrap the build task
 
 Add a new `ant task`
-``` xml
+~~~ xml
 <target name="compile-alert">
   <trycatch>
     <try>
@@ -78,7 +78,7 @@ Add a new `ant task`
     </finally>
   </trycatch>
 </target>
-```
+~~~
 
 ## Resources
 - https://ant.apache.org/manual/Tasks/exec.html
