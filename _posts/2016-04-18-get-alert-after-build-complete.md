@@ -13,6 +13,7 @@ Requirement is simple: at the end of the build, pop out a window saying "build i
 
 ## Preparation
 **Add an `ant task` to the build file**
+
 ~~~ xml
 <target name="alert">
   <exec executable="[path to your batch script]\alert.bat"></exec>
@@ -21,6 +22,7 @@ Requirement is simple: at the end of the build, pop out a window saying "build i
 ~~~
 
 **Create a batch script `alert.bat`**
+
 ~~~ batch
 :: hide all output messages
 @echo off
@@ -62,6 +64,7 @@ But this setup has a problem: if the build task fail, the program will exit and 
 I want to get an alert whenever the build is success or fail. So I think of using `<trycatch>` block to wrap the build task
 
 Add a new `ant task`
+
 ~~~ xml
 <target name="compile-alert">
   <trycatch>
