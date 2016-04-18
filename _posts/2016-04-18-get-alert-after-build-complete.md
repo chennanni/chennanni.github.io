@@ -23,7 +23,7 @@ Requirement is simple: at the end of the build, pop out a window saying "build i
 
 **Create a batch script `alert.bat`**
 
-~~~ batch
+~~~ shell
 :: hide all output messages
 @echo off
 echo off
