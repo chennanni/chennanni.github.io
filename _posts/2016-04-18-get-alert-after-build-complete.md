@@ -84,8 +84,8 @@ Add a new `ant task`
 ~~~
 
 ## Resources
-- https://ant.apache.org/manual/Tasks/exec.html
-- http://stackoverflow.com/questions/774175/show-a-popup-message-box-from-a-windows-batch-file
-- http://stackoverflow.com/questions/11394432/create-vbscript-messagebox-that-stays-on-top-and-blocks-other-windows
-- http://stackoverflow.com/questions/23313709/play-invisible-music-with-batch-file
-- http://stackoverflow.com/questions/2044882/how-to-hide-batch-output
+- <https://ant.apache.org/manual/Tasks/exec.html>
+- <http://stackoverflow.com/questions/774175/show-a-popup-message-box-from-a-windows-batch-file>
+- <http://stackoverflow.com/questions/11394432/create-vbscript-messagebox-that-stays-on-top-and-blocks-other-windows>
+- <http://stackoverflow.com/questions/23313709/play-invisible-music-with-batch-file>
+- <http://stackoverflow.com/questions/2044882/how-to-hide-batch-output>
