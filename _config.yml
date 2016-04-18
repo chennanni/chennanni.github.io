@@ -21,4 +21,4 @@ markdown: kramdown
 # Markdown settings
 kramdown:
   input: GFM
-  default_lang: javascript
+  syntax_highlighter: rouge
