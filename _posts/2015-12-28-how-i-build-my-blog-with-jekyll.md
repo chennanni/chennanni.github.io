@@ -2,7 +2,7 @@
 layout: post
 title:  "How I Build My Blog With Jekyll"
 date:   2015-12-28
-categories: jekyll
+categories: [blog, jekyll]
 comments: true
 ---
 

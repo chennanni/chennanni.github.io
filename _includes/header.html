@@ -13,20 +13,23 @@
         </svg>
       </a>
 
+      <!-- my dynamic nav index with ordering from level 1-5 -->
       <div class="trigger">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          {% endif %}
+        {% for i in (1..5) %}
+          {% for my_page in site.pages %}
+            {% if my_page.order == {{i}} and my_page.title %}
+              <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+            {% endif %}
+          {% endfor %}
         {% endfor %}
       </div>
 
       <!-- my static nav index -->
-      <!-- <div class="trigger">
-        <a class="page-link" href="{{ "/blog" | prepend: site.baseurl}}"> Blog </a>
-        <a class="page-link" href="{{ "/project" | prepend: site.baseurl}}"> Project </a>
-        <a class="page-link" href="{{ "/contact" | prepend: site.baseurl}}"> Contact </a>
-      </div> -->
+      <!--<div class="trigger">-->
+      <!--  <a class="page-link" href="{{ "/blog" | prepend: site.baseurl}}"> Blog </a>-->
+      <!--  <a class="page-link" href="{{ "/project" | prepend: site.baseurl}}"> Project </a>-->
+      <!--  <a class="page-link" href="{{ "/contact" | prepend: site.baseurl}}"> Contact </a>-->
+      <!--</div>-->
     </nav>
 
   </div>

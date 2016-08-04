@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Blog
-permalink: /blog/
+title: Mumble
+permalink: /mumble/
 order: 2
 ---
 
 <!-- <h1 class="page-heading">Posts</h1> -->
 
 <ul class="post-list">
-  {% for post in site.categories.blog %}
+  {% for post in site.categories.mumble %}
     <li>
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 

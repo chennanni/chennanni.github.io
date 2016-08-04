@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Blog
-permalink: /blog/
-order: 2
+title: 文章
+permalink: /blog-cn/
+order: 1
 ---
 
 <!-- <h1 class="page-heading">Posts</h1> -->
 
 <ul class="post-list">
-  {% for post in site.categories.blog %}
+  {% for post in site.categories.blog-cn %}
     <li>
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 

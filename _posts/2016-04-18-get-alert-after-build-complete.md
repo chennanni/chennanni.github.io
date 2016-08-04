@@ -2,7 +2,7 @@
 layout: post
 title:  "Get Alert After Build Complete With Ant & Batch Script"
 date:   2016-04-18
-categories: ant, batch script
+categories: [blog, ant]
 comments: true
 ---
 
