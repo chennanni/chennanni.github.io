@@ -2,7 +2,7 @@
 layout: post
 title:  "关于读书"
 date:   2014-01-18
-categories: blog-cn
+categories: mumble-cn
 comments: true
 ---
 
