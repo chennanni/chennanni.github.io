@@ -2,7 +2,7 @@
 layout: post
 title:  "读书笔记--拖延心理学"
 date:   2016-08-04
-categories: blog-cn
+categories: mumble-cn
 comments: true
 ---
 
