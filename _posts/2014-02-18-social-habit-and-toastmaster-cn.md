@@ -2,7 +2,7 @@
 layout: post
 title:  "社会习惯的产生与TM发展的关联"
 date:   2014-02-18
-categories: blog-cn
+categories: mumble-cn
 comments: true
 ---
 
