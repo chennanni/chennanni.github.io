@@ -2,7 +2,7 @@
 layout: post
 title:  "读书笔记--你一定爱读的极简欧洲史"
 date:   2014-02-10
-categories: blog-cn
+categories: mumble-cn
 comments: true
 ---
 
