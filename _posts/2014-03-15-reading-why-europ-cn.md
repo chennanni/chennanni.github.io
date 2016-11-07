@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "读书笔记–为什么是欧洲"
+title:  "读书笔记--为什么是欧洲"
 date:   2014-03-15
 categories: mumble-cn
 comments: true
