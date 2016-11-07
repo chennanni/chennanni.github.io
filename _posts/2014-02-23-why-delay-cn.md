@@ -5,8 +5,6 @@ date:   2016-08-04
 categories: mumble-cn
 comments: true
 ---
-
-# 读书笔记--拖延心理学
  
 拖延心理学，Jane B. Burka, Lenora M. Yuen著；蒋勇强，陆正芳译
  
