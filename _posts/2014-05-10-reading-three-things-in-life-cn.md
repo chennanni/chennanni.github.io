@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "读书笔记–-浮生三记"
+title:  "读书笔记--浮生三记"
 date:   2014-05-10
 categories: mumble-cn
 comments: true
