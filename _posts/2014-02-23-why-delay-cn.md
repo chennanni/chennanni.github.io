@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "读书笔记--拖延心理学"
-date:   2016-08-04
+date:   2014-02-23
 categories: mumble-cn
 comments: true
 ---
