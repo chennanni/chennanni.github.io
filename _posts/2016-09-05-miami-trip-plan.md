@@ -6,8 +6,6 @@ categories: mumble
 comments: true
 ---
 
-# Miami Trip Plan
-
 ## DAY 1
 
 Scuba Diving Trip
