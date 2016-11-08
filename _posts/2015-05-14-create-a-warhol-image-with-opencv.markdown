@@ -45,7 +45,7 @@ The process of the method is as follows:
 
 ## Code
 
-``` c++
+~~~ c++
 /**
     This program: Creates an Warhol-style pop art filter of
     an input image and writes it to an output image
@@ -171,7 +171,7 @@ void myfilter(Mat grayimg, Mat &fltimg, int col[4][3]){
 	}
     }
 }
-```
+~~~
 
 ## Results & Conclusion
 
