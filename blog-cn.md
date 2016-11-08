@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 文章
+title: 技术
 permalink: /blog-cn/
 order: 1
 ---
