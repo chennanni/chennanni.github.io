@@ -23,7 +23,7 @@ His works explore the relationship between artistic expression, celebrity cultur
 
 A warhol image looks like this:
 
-![warhol-image](source/img/warhol-image.png)
+![warhol-image](/source/img/warhol-image.png)
 
 ## Basic Idea & Methods
 
