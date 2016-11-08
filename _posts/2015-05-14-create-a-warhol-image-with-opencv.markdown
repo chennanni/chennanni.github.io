@@ -45,7 +45,7 @@ The process of the method is as follows:
 
 ## Code
 
-~~~ c++
+~~~
 /**
     This program: Creates an Warhol-style pop art filter of
     an input image and writes it to an output image
