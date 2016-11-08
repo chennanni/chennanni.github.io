@@ -45,33 +45,41 @@ The process of the method is as follows:
 
 ## Code
 
-~~~
+~~~ c++
 /**
     This program: Creates an Warhol-style pop art filter of
     an input image and writes it to an output image
 */
+
 #include "stdafx.h"
 #include "opencv2/core/core.hpp"
 #include "opencv2/highgui/highgui.hpp"
 #include "opencv2/imgproc/imgproc.hpp"
 #include <iostream>
+
 using namespace cv;
 using namespace std;
+
 /**
     @param img a color image
     @return a Warhol 2*2 image
 */
+
 Mat myWarhol(Mat img);
+
 /**
     @param img a gray image
     @param fltimg a filtered image
     @col four different colors to filter the image
 */
+
 void myfilter(Mat grayimg, Mat &fltimg, int col[4][3]);
+
 /**
     @param src source color image
     @param dst destination color image
 */
+
 void myModification(Mat src, Mat &dst);
 
 int main()
@@ -91,9 +99,11 @@ int main()
     char key = waitKey(0);
     return 0;
 }
+
 /**
 	myWarhol filter
 */
+
 Mat myWarhol(Mat img) {
     Mat grayimg, fltimg, smlimg, tileimg;
     int col1[4][3] = {{0,0,255},{0,255,0},{255,0,0},{255,255,0}};//R,G,B
@@ -136,9 +146,11 @@ Mat myWarhol(Mat img) {
     smlimg.copyTo(roi);
     return tileimg;
 }
+
 /**
 	filter the image with four given color
 */
+
 void myfilter(Mat grayimg, Mat &fltimg, int col[4][3]){
     //For each pixel, reassign intensity value
     for (int i = 0; i < grayimg.rows; i++){
