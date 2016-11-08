@@ -2,7 +2,7 @@
 layout: post
 title:  "Ninja Boomerang"
 date:   2014-06-24
-categories: [blog, game]
+categories: [project, game]
 comments: true
 ---
 
