@@ -95,19 +95,16 @@ To run the application successfully:
   - `ResizeImages`: Used to Resize the images to fit the screen
   - `VideoPlayer`: Interface for Images2Video
   - `YesBar`: Process bar
-  
-## Library
-
-- JRE7.0
-- Note: The API com.sun.image.codec.jpeg is restricted by eclipse. Find “Forbidden references(access rules)” in “Windows”-“Preferences”-“Java”-“Compiler”-“Errors/Warnings”-“Deprecated and restricted API” and set it to “Warning” to run this program.
 
 ## References
 
-- JPEG (ISO/IEC JTC l), Digital Compression and Coding of Continuous-tone Still Images, ISO/IEC DIS 10918-1, Feb. 1992.
-- MPEG (ISO/IEC JTCl/SC29/WGI l), Coding of Moving Pictures and Associated Audio for Digital Storage Media at up to about 1.5 Mbit/s, IS0 CD 11 172, Nov. 1991.
-- J.L. Wu, S.J. Huang, Y.M. Huang, C.T. Hsu, and J.Shiu, “An efficient JPEG to MPEG-1 transcoding algorithm”, IEEE Trans. Consumer Electron., Vol.42, Issue: 3, pp.447-457, Aug. 1996.
-- Gregory K. Wallace, The JPEG still picture compression standard, Communications of the ACM, v.34 n.4, p.30-44, April 1991.
-- Java The Complete Reference, 8th Edition
+> JPEG (ISO/IEC JTC l), Digital Compression and Coding of Continuous-tone Still Images, ISO/IEC DIS 10918-1, Feb. 1992.
+
+> MPEG (ISO/IEC JTCl/SC29/WGI l), Coding of Moving Pictures and Associated Audio for Digital Storage Media at up to about 1.5 Mbit/s, IS0 CD 11 172, Nov. 1991.
+
+> J.L. Wu, S.J. Huang, Y.M. Huang, C.T. Hsu, and J.Shiu, “An efficient JPEG to MPEG-1 transcoding algorithm”, IEEE Trans. Consumer Electron., Vol.42, Issue: 3, pp.447-457, Aug. 1996.
+
+> Gregory K. Wallace, The JPEG still picture compression standard, Communications of the ACM, v.34 n.4, p.30-44, April 1991.
 
 ## Resouces
 
