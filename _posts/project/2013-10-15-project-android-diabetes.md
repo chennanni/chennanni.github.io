@@ -87,16 +87,16 @@ comments: true
 
 打卡界面
 
-![project-android-diabetes-presentation-1](/source/img/project-android-diabetes-presentation-1)
+![project-android-diabetes-presentation-1](/source/img/project-android-diabetes-presentation-1.png)
 
 记录界面
 
-![project-android-diabetes-presentation-2](/source/img/project-android-diabetes-presentation-2)
+![project-android-diabetes-presentation-2](/source/img/project-android-diabetes-presentation-2.png)
 
 显示界面
 
-![project-android-diabetes-presentation-3](/source/img/project-android-diabetes-presentation-3)
+![project-android-diabetes-presentation-3](/source/img/project-android-diabetes-presentation-3.png)
 
 上传界面
 
-![project-android-diabetes-presentation-4](/source/img/project-android-diabetes-presentation-4)
+![project-android-diabetes-presentation-4](/source/img/project-android-diabetes-presentation-4.png)
