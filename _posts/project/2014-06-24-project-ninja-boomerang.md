@@ -8,7 +8,7 @@ comments: true
 
 This is my first game made with Construct 2, hosting in my Dropbox Server.
 
-It CAN be played in this [webpage](https://dl.dropboxusercontent.com/u/77067427/Boomerang2/index.html). Hope you enjoy it! 
+The source is [here](https://github.com/chennanni/Boomerang2). Hope you enjoy it! 
 
 ![ninja-boomerang](/source/img/ninja-boomerang.png)
 
