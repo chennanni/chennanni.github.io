@@ -23,9 +23,7 @@ It’s a great article by Julian Meyer, good for beginner to learn both Python a
 Another good source is [How to make a Flappy Bird clone by lessmilk](http://www.lessmilk.com/tutorial/flappy-bird-phaser-1). 
 The site publishes a new game in HTML at a weekly basis.(Fabulous Game and Tutorial!)
 
-![flappy-bird-1](/source/img/flappy-bird-1)
-
-![flappy-bird-2](/source/img/flappy-bird-2)
+![flappy-bird-1](/source/img/flappy-bird-1.png)
 
 So after I read these two GREAT blogs(I highly recommend you to read them yourself), 
 I decided to make a Flappy Bird Clone in Python which is a combination of what I learned from these two articles.
