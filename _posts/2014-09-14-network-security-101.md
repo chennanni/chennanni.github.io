@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Network Security 101"
-date:   2015-05-14
+date:   2014-09-14
 categories: [blog, security]
 comments: true
 ---
