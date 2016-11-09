@@ -108,7 +108,6 @@ To run the application successfully:
 - J.L. Wu, S.J. Huang, Y.M. Huang, C.T. Hsu, and J.Shiu, “An efficient JPEG to MPEG-1 transcoding algorithm”, IEEE Trans. Consumer Electron., Vol.42, Issue: 3, pp.447-457, Aug. 1996.
 - Gregory K. Wallace, The JPEG still picture compression standard, Communications of the ACM, v.34 n.4, p.30-44, April 1991.
 - Java The Complete Reference, 8th Edition
-- [JPEGImageEncoder Interface](<http://courses.cs.washington.edu/courses/cse341/98au/java/jdk1.2beta4/docs/api/com/sun/image/codec/jpeg/JPEGImageEncoder.html>)
 
 ## Resouces
 
@@ -119,4 +118,4 @@ To run the application successfully:
 - <http://www.randelshofer.ch/monte>
 - <http://www.randelshofer.ch/blog/2008/08/writing-avi-videos-in-pure-java>
 - <http://javagraphics.blogspot.com/2008/06/movies-writing-mov-files-without.html>
-
+- [JPEGImageEncoder Interface](<http://courses.cs.washington.edu/courses/cse341/98au/java/jdk1.2beta4/docs/api/com/sun/image/codec/jpeg/JPEGImageEncoder.html>)
