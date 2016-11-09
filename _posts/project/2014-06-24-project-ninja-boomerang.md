@@ -50,12 +50,12 @@ Due to limited time, there’s some bugs that I don’t attend to fix them.
 
 - What I can do better
   - design the game framework first, then try to follow it
-  - always try to reset variables at one places (just for construct 2))
-  - pre-load all sounds at the beginning of the layout or it can’t play well (just for construct 2))
-  - monsters only move inside the layout, it’s important to figure out the relationship between camera display and layout (just for construct 2))
+  - always try to reset variables at one places (just for construct 2)
+  - pre-load all sounds at the beginning of the layout or it can’t play well (just for construct 2)
+  - monsters only move inside the layout, it’s important to figure out the relationship between camera display and layout (just for construct 2)
 - Better game creation process
-  - find resources(images, sounds, videos)
-  - define sprites(kinds, behaviors)
+  - find resources (images, sounds, videos)
+  - define sprites (kinds, behaviors)
   - implementation
   - score system
   
