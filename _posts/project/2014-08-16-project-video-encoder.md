@@ -34,6 +34,30 @@ It can encoded up to 100 JPEG image files into one file with given quality (0~1)
 
 ![video-encoder-design](/source/img/video-encoder-design.png)
 
+## Project Structure
+
+- default package:
+  - `VideoEncoder`: the main entrance of the application, default control with command line
+- GUI package:
+  - `ImageCovertorMenu`: the image covert menu, used to encode video
+  - `VideoPlayerMenu`: the image player menu, used to play video
+  - `MainMenu`: the main menu of GUI
+- image package:
+  - `ImageCompressor`: image compressor interface
+  - `ImgCmp`: image compressor
+  - `ImgCvt`: change image RGB parameter
+  - `InnerCmp`: inner frame deletion and addition
+- util package:
+  - `DecodeException`: decode exception
+  - `EncodeException`:encode exception
+  - `Helper`: implement function like ‘loadImages’, ‘mergeImages’, ‘sizeImages’, ‘writeFile’, ‘readFile’, ‘encodeFile’, ‘decodeFile’, ‘renameImages’
+- video package:
+  - `Board`: the painting board to display images
+  - `Images2Video`: Render images to Screen using interface VideoPlayer
+  - `ResizeImages`: Used to Resize the images to fit the screen
+  - `VideoPlayer`: Interface for Images2Video
+  - `YesBar`: Process bar
+
 ## Analysis
 
 Asymptotic Complexity
@@ -63,30 +87,6 @@ Graphic User Interface
 Playing Encoded Video with a Gray Filter
 
 ![video-encoder-play](/source/img/video-encoder-play.png)
-
-## Project Structure
-
-- default package:
-  - `VideoEncoder`: the main entrance of the application, default control with command line
-- GUI package:
-  - `ImageCovertorMenu`: the image covert menu, used to encode video
-  - `VideoPlayerMenu`: the image player menu, used to play video
-  - `MainMenu`: the main menu of GUI
-- image package:
-  - `ImageCompressor`: image compressor interface
-  - `ImgCmp`: image compressor
-  - `ImgCvt`: change image RGB parameter
-  - `InnerCmp`: inner frame deletion and addition
-- util package:
-  - `DecodeException`: decode exception
-  - `EncodeException`:encode exception
-  - `Helper`: implement function like ‘loadImages’, ‘mergeImages’, ‘sizeImages’, ‘writeFile’, ‘readFile’, ‘encodeFile’, ‘decodeFile’, ‘renameImages’
-- video package:
-  - `Board`: the painting board to display images
-  - `Images2Video`: Render images to Screen using interface VideoPlayer
-  - `ResizeImages`: Used to Resize the images to fit the screen
-  - `VideoPlayer`: Interface for Images2Video
-  - `YesBar`: Process bar
 
 ## References
 
