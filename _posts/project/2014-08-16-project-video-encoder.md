@@ -64,14 +64,6 @@ Playing Encoded Video with a Gray Filter
 
 ![video-encoder-play](/source/img/video-encoder-play.png)
 
-## Running Instruction
-
-To run the application successfully:
-
-- Import the code package ec504, including sub-packages ec504.util, ec504.GUI, ec504.video and ec504.image.
-- Run the code in the console.
-- Follow the commandline user interface for encoding and playing videos.
-
 ## Project Structure
 
 - default package:
