@@ -484,6 +484,6 @@ Finally it worked!
 
 :)
 
-## 8 Source
+## 8. Source
 
 <https://github.com/chennanni/flappy-bird-clone>
