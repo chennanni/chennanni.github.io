@@ -1,14 +1,14 @@
 ---
 layout: page
-title: 杂谈
-permalink: /mumble-cn/
-order: 1
+title: Blog
+permalink: /blog/
+order: 3
 ---
 
 <!-- <h1 class="page-heading">Posts</h1> -->
 
 <ul class="post-list">
-  {% for post in site.categories.mumble-cn %}
+  {% for post in site.categories.blog %}
     <li>
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
