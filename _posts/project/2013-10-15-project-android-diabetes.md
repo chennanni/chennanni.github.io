@@ -85,6 +85,8 @@ comments: true
 
 ## 成功展示
 
+Link to [Source](https://github.com/chennanni/diabetes-control-app)
+
 打卡界面
 
 ![project-android-diabetes-presentation-1](/source/img/project-android-diabetes-presentation-1.png)
