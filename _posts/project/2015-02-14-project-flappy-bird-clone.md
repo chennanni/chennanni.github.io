@@ -483,3 +483,7 @@ But I seems to be wrong again. So I copy/parse the resourse folder in the same d
 Finally it worked!
 
 :)
+
+## 8 Source
+
+<https://github.com/chennanni/flappy-bird-clone>
