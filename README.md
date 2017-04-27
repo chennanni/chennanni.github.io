@@ -7,5 +7,6 @@ This is Chennan's blog.
 - domain management and routing: amazon route 53
 
 ## Updates
-- 4/26/2017: link github page to custom domain
-- 4/26/2017: add like button (likebtn.com) to all posts
+- 4/26/2017: linked github page to custom domain
+- 4/26/2017: added like button (likebtn.com) to all posts
+- 4/26/2017: added site to google webmaster for better search apperance
