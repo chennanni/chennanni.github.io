@@ -23,7 +23,7 @@ public interface SomeFooExceptions {
 
 Message Center可以分为两个部分，一个是UI，一个是DB。两个部分都可以对记录的值进行修改。示意图如下：
 
-![message-center-structure](/img/message-center-structure.png)
+![message-center-structure](/source/img/message-center-structure.PNG)
 
 其中分为两种类型：
 
