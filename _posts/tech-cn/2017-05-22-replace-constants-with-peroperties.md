@@ -15,6 +15,7 @@ public interface SomeFooExceptions {
      public static final String A_EXCEPTION = "This is A exception";
      public static final String B_EXCEPTION = "This is B exception";
      ...
+}
 ```
 
 在其他类需要引用这个接口中的变量时，是这样用的：`SomeFooExceptions.A_EXCEPTION `。
@@ -65,25 +66,28 @@ UIFrameworkErrorMessages.UM_SOMETHING_IS_WRONG
 我的采取了如下的解决方案：在static block里完成读取properties files并赋值的工作。这样子并不需要改动使用到这个label的地方。
 
 ``` java
-public static String A_EXCEPTION;
-private static Properties properties;
-static {
-  properties = new Properties();
-  InputStream in = myClass.class.getResourceAsStream( "/com/XXX/XXX/SomeException.properties" );
-  try {
-    properties .load(in );
-    loadExceptions();
-  } catch (IOException e ) {
-    e.printStackTrace();
-  } finally {
-    try {
-      in.close();
-    } catch (IOException e ) {
-      e.printStackTrace();
-    }
-  }
-}
-private static void loadExceptions() {
-  A_EXCEPTION = properties .getProperty("A_EXCEPTION");
+public class SomeFooExceptions {
+     public static String A_EXCEPTION;
+     private static Properties properties;
+     static {
+       properties = new Properties();
+       InputStream in = myClass.class.getResourceAsStream( "/com/XXX/XXX/SomeException.properties" );
+       try {
+         properties .load(in );
+         loadExceptions();
+       } catch (IOException e ) {
+         e.printStackTrace();
+       } finally {
+         try {
+           in.close();
+         } catch (IOException e ) {
+           e.printStackTrace();
+         }
+       }
+     }
+     private static void loadExceptions() {
+       A_EXCEPTION = properties .getProperty("A_EXCEPTION");
+     }
+     ...
 }
 ```
