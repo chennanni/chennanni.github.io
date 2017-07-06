@@ -8,7 +8,8 @@ order: 3
 <!-- <h1 class="page-heading">Posts</h1> -->
 
 <ul class="post-list">
-  {% for post in site.categories.blog %}
+  {% for post in site.posts %}
+  <!-- {% for post in site.categories.blog %} -->
     <li>
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
