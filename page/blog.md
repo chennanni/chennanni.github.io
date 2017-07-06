@@ -7,13 +7,13 @@ order: 3
 
 <!-- <h1 class="page-heading">Posts</h1> -->
 
-<h3>最近更新</h3>
+<h1 class="page-heading>最近更新</h1>
 <ul>
   <li>
-    <h2><a class="post-link" href="www.jianshu.com">简书</a></h2>
+    <h2><a class="post-link" href="http://www.jianshu.com">新浪博客</a></h2>
   </li>
   <li>
-    <h2><a class="post-link" href="https://www.cnblogs.com">博客园</a></h2>
+    <h2><a class="post-link" href="https://www.cnblogs.com">QQ空间</a></h2>
   </li>
 </ul>
 
