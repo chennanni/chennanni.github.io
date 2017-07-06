@@ -9,11 +9,11 @@ order: 1
 
 <ul class="post-list">
   <li>
-    <span class="post-meta">2017-now</span>
+    <span class="post-meta">2017-now</span>
     <h2><a class="post-link" href="http://www.jianshu.com">简书</a></h2>
   </li>
   <li>
-    <span class="post-meta">2017-now</span>
+    <span class="post-meta">2017-now</span>
     <h2><a class="post-link" href="https://www.cnblogs.com">博客园</a></h2>
   </li>
 </ul>
