@@ -2,7 +2,7 @@
 layout: page
 title: Blog
 permalink: /blog/
-order: 3
+order: 1
 ---
 
 <h3>最近更新</h3>
