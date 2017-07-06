@@ -5,7 +5,7 @@ permalink: /blog/
 order: 3
 ---
 
-<h1 class="page-heading>最近更新</h1>
+<h1 class="page-heading">最近更新</h1>
 
 <ul class="post-list">
   <li>
@@ -16,7 +16,7 @@ order: 3
   </li>
 </ul>
 
-<h1 class="page-heading>技术</h1>
+<h1 class="page-heading">技术</h1>
 
 <ul class="post-list">
   {% for post in site.categories.tech-cn %}
@@ -30,7 +30,7 @@ order: 3
   {% endfor %}
 </ul>
 
-<h1 class="page-heading>杂谈</h1>
+<h1 class="page-heading">杂谈</h1>
 
 <ul class="post-list">
   {% for post in site.categories.mumble-cn %}
@@ -44,7 +44,7 @@ order: 3
   {% endfor %}
 </ul>
 
-<h1 class="page-heading>Article</h1>
+<h1 class="page-heading">Article</h1>
 
 <ul class="post-list">
   {% for post in site.categories.blog %}
@@ -58,7 +58,7 @@ order: 3
   {% endfor %}
 </ul>
 
-<h1 class="page-heading>往期文章</h1>
+<h1 class="page-heading">往期文章</h1>
 
 <ul class="post-list">
   <li>
