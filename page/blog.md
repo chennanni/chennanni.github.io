@@ -7,17 +7,17 @@ order: 3
 
 <!-- <h1 class="page-heading">Posts</h1> -->
 
-<h1>最新更新</h1>
+<h3>最近更新</h3>
 <ul>
   <li>
-    <h2>简书</h2>
+    <h2><a class="post-link" href="www.jianshu.com">简书</a></h2>
   </li>
   <li>
-    <h2>博客园</h2>
+    <h2><a class="post-link" href="https://www.cnblogs.com">博客园</a></h2>
   </li>
 </ul>
 
-<h1>技术</h1>
+<h3>技术</h3>
 
 <ul class="post-list">
   {% for post in site.categories.tech-cn %}
@@ -31,7 +31,7 @@ order: 3
   {% endfor %}
 </ul>
 
-<h1>杂谈</h1>
+<h3>杂谈</h3>
 
 <ul class="post-list">
   {% for post in site.categories.mumble-cn %}
@@ -45,7 +45,7 @@ order: 3
   {% endfor %}
 </ul>
 
-<h1>Blog</h1>
+<h3>Blog</h3>
 
 <ul class="post-list">
   {% for post in site.categories.blog %}
@@ -59,13 +59,13 @@ order: 3
   {% endfor %}
 </ul>
 
-<h1>往期文章</h1>
+<h3>往期文章</h3>
 <ul>
   <li>
-    <h2>新浪博客</h2>
+    <h2><a class="post-link" href="www.jianshu.com">新浪博客</a></h2>
   </li>
   <li>
-    <h2>QQ空间</h2>
+    <h2><a class="post-link" href="www.jianshu.com">QQ空间</a></h2>
   </li>
 </ul>
 
