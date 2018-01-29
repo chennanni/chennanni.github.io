@@ -60,7 +60,7 @@ order: 1
   {% endfor %}
 </ul>
 
-<h3>往期文章</h3>
+<!-- <h3>往期文章</h3>
 
 <ul class="post-list">
   <li>
@@ -71,6 +71,6 @@ order: 1
     <span class="post-meta">2009-2012</span>
     <h2><a class="post-link" href="http://396185801.qzone.qq.com">QQ空间</a></h2>
   </li>
-</ul>
+</ul> -->
 
 <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
