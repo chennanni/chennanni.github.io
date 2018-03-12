@@ -12,10 +12,10 @@ order: 1
     <span class="post-meta">2017-now</span>
     <h2><a class="post-link" href="http://www.cnblogs.com/maxstack">博客园</a></h2>
   </li>
-  <li>
+  <!-- <li>
     <span class="post-meta">2017-now</span>
     <h2><a class="post-link" href="http://www.jianshu.com/nb/7671820">简书</a></h2>
-  </li>
+  </li> -->
 </ul>
 
 <h3>技术</h3>
