@@ -32,7 +32,7 @@ order: 1
   {% endfor %}
 </ul>
 
-<h3>杂谈</h3>
+<!-- <h3>杂谈</h3>
 
 <ul class="post-list">
   {% for post in site.categories.mumble-cn %}
@@ -44,7 +44,7 @@ order: 1
       </h2>
     </li>
   {% endfor %}
-</ul>
+</ul> -->
 
 <h3>Article</h3>
 
