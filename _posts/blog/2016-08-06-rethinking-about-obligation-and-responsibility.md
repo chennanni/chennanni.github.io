@@ -4,6 +4,7 @@ title:  "Rethinking about Obligation and Responsibility"
 date:   2016-08-06
 categories: [blog]
 comments: true
+published: false
 ---
 
 ## Intro
