@@ -9,7 +9,7 @@ order: 1
 
 <ul class="post-list">
   <li>
-    <span class="post-meta">2017-now</span>
+    <span class="post-meta">2019-now</span>
     <h2><a class="post-link" href="http://www.cnblogs.com/maxstack">博客园</a></h2>
   </li>
   <!-- <li>
@@ -18,7 +18,7 @@ order: 1
   </li> -->
 </ul>
 
-<h3>技术</h3>
+<h3>往期文章</h3>
 
 <ul class="post-list">
   {% for post in site.categories.tech-cn %}
@@ -46,7 +46,7 @@ order: 1
   {% endfor %}
 </ul> -->
 
-<h3>Article</h3>
+<!-- <h3>Article</h3> -->
 
 <ul class="post-list">
   {% for post in site.categories.blog %}
@@ -60,7 +60,7 @@ order: 1
   {% endfor %}
 </ul>
 
-<!-- <h3>往期文章</h3>
+<!-- <h3>老文章</h3>
 
 <ul class="post-list">
   <li>
