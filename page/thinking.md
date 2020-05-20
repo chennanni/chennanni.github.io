@@ -5,7 +5,16 @@ permalink: /thinking/
 order: 2
 ---
 
-<h3>杂谈</h3>
+<h3>最近更新</h3>
+
+<ul class="post-list">
+  <li>
+    <span class="post-meta">2017-now</span>
+    <h2>--> <a class="post-link" href="http://www.jianshu.com/nb/7671820">简书</a></h2>
+  </li>
+</ul>
+
+<h3>往期文章</h3>
 
 <ul class="post-list">
   {% for post in site.categories.mumble-cn %}
