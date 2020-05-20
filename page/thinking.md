@@ -2,7 +2,7 @@
 layout: page
 title: 杂谈
 permalink: /thinking/
-order: 2
+order: 6
 ---
 
 <h3>最近更新</h3>
