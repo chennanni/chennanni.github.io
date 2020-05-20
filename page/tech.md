@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Blog
-permalink: /blog/
+title: Tech
+permalink: /tech/
 order: 1
 ---
 
